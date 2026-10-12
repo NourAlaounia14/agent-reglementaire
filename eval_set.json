@@ -1,0 +1,49 @@
+[
+  {
+    "question": "Quelles sont les obligations liées au marquage CE pour un logiciel médical ?",
+    "expected_sources": ["dispositifs_medicaux_cardio.md"],
+    "must_contain": ["marquage CE", "RDM"],
+    "profil": {
+      "nom": "CardioApp",
+      "secteur": "HealthTech",
+      "statut_juridique": "SAS",
+      "stade": "développement",
+      "nb_employes": 5,
+      "traite_donnees_personnelles": true,
+      "description": "Logiciel d'aide au diagnostic cardiologique"
+    }
+  },
+  {
+    "question": "Pourquoi choisir le statut de SAS pour créer une startup ?",
+    "expected_sources": ["service_public_statuts.md"],
+    "must_contain": ["SAS", "gouvernance"],
+    "profil": {
+      "nom": "LegalTest",
+      "secteur": "HealthTech",
+      "statut_juridique": "SAS",
+      "stade": "idée",
+      "nb_employes": 1,
+      "traite_donnees_personnelles": false,
+      "description": "Projet de création d'entreprise"
+    }
+  },
+  {
+    "question": "Qu'est-ce que la certification HDS et quand est-elle obligatoire ?",
+    "expected_sources": ["cnil_rgpd.md"],
+    "must_contain": ["HDS", "données de santé"],
+    "profil": {
+      "nom": "DataHealth",
+      "secteur": "HealthTech",
+      "statut_juridique": "SA",
+      "stade": "croissance",
+      "nb_employes": 12,
+      "traite_donnees_personnelles": true,
+      "description": "Plateforme cloud de suivi patient"
+    }
+  },
+  {
+    "question": "Comment classifier un dispositif médical selon la règle 11 ?",
+    "expected_sources": ["dispositifs_medicaux_cardio.md"],
+    "must_contain": ["règle 11", "classe"]
+  }
+]
